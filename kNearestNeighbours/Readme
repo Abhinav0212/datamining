@@ -1,0 +1,33 @@
+K Nearest Neighbor
+==================
+
+This is a program to implement a k-Nearest Neighbor (kNN) classification algorithm and test this method on both the Iris and Income datasets.
+
+Instruction to run the code
+---------------------------
+The instruction to run the python files are provided below.
+distance_measure = 1 : Euclidean Similarity
+distance_measure = 2 : Cosine Similarity
+
+For Iris data set:
+    1. Command : python knnIris.py <training_file> <testing_file> <distance_measure> [<value_of_k>]
+    eg:          python knnIris.py data/Iris.csv data/Iris_Test.csv 1 5
+    2. If distance_measure = 1, the output will be written to the file Iris_euclid_output.csv
+    3. If distance_measure = 2, the output will be written to the file Iris_cosine_output.csv
+
+For Income data set:
+    1. Command : python knnIncome.py <training_file> <testing_file> <distance_measure> [<value_of_k>]
+    eg:          python knnIncome.py data/Income.csv data/Income_Test.csv 1 5
+    2. If distance_measure = 1, the output will be written to the file Income_euclid_output.csv
+    3. If distance_measure = 2, the output will be written to the file Income_cosine_output.csv
+
+Output format
+-------------
+
+The output is an n-by-4 dataset, where n is the number of examples in the test dataset.
+
+Transaction ID      Actual Class        Predicted Class         Posterior Probability
+
+The Actual Class is the class of the record that is listed in the test file.
+Predicted Class is the prediction that is made based on the kNN algorithm and training dataset.
+Posterior Probability is the probability that the record belongs to the predicted class, based on the output of the kNN algorithm.
