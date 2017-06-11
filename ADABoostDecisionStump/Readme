@@ -1,0 +1,7 @@
+The instruction to run the python files are provided below.
+
+For the Decision Stump classifier (prints accuracy and average probability):
+    python DecisionStump.py data/game_codedata_train.dat.txt data/game_codedata_test.dat.txt
+
+For ADA Boost Implementation (prints accuracy):
+    python ADABoostDecisionStump.py data/game_codedata_train.dat.txt data/game_codedata_test.dat.txt <ensemble_number>

@@ -1,0 +1,9 @@
+dayOfWeek: Weekday, Saturday, Sunday
+timeOfDay: morning, afternoon, evening
+timeToPlay: <30, 30-60, >60
+mood: silly, happy, tired
+friendsVisiting: no, yes
+kidsPlaying: no, yes
+atHome: no, yes
+snacks: no, yes
+game: SettersOfCatan, ApplesToApples
