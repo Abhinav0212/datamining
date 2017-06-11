@@ -1,0 +1,22 @@
+K Means Clustering
+==================
+
+This is a program to implement a K-Means clustering algorithm and test this method on sample two dimensional data and the wine quality dataset.
+
+Instruction to run the code
+---------------------------
+The instruction to run the python files are provided below.
+
+Command : python kMeans.py <file_name> [<value_of_k>]
+eg:       python kMeans.py data/TwoDimEasy.csv 2
+
+where k is the number of clusters.
+
+Output format
+-------------
+
+The output is an n-by-2 dataset, where n is the number of examples in the test dataset.
+
+Row ID      Predicted Cluster
+
+Predicted Cluster is the prediction that is made based on the KMeans algorithm.
