@@ -1,0 +1,11 @@
+The instruction to run the python files are provided below.
+
+For the classifier with a single gaussian per vowel
+    python gaussian.py <train_file> <test_file>
+    eg: python gaussian.py train.txt test.txt
+
+For the classifier with mixture of gaussians per vowel
+    python mixtureOfGaussian.py <train_file> <test_file> <num_of_mixtures>
+    eg: python mixtureOfGaussian.py train.txt test.txt 3
+
+The output (predicted classes) will be written to output.txt
